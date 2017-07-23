@@ -2,7 +2,19 @@
 
 #header{
     /* do this stuff to the id of header */
+    float: right;
+    width: 80%%;
     text-align: center;
+}
+
+#selfie {
+    float: left;
+    width: 20%%;
+}
+
+#selfie img{
+    border-radius: 50%;
+    height: 300px;
 }
 
 h1, h2, h3 {
@@ -24,6 +36,3 @@ h1{
     margin: 0 auto;
 }
 
-.img-circle {
-    border-radius: 50%;
-}
